@@ -26,8 +26,6 @@ def randomiseVowel():
 
 def startItUp():
     for x in range(0, 100):
-        print (replaceVowels(dungeons))
-        print (replaceVowels(an))
-        print (replaceVowels(dragons))
+        print(replaceVowels(dungeons), replaceVowels(an), replaceVowels(dragons))
 
 startItUp()
